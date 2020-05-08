@@ -1,1 +1,1 @@
-web: gunicorn TheLab.wsgi
+web: gunicorn TheLab:app
