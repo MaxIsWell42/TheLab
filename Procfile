@@ -1,1 +1,1 @@
-web: gunicorn TheLab:blog
+web: gunicorn TheLab:TheLab
