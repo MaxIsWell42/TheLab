@@ -1,1 +1,1 @@
-web: gunicorn TheLab:TheLab
+web: gunicorn app:app
