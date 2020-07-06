@@ -12,6 +12,8 @@ postgres = "*"
 django-crispy-forms = "*"
 django-cleanup = "*"
 pillow = "*"
+psycopg2-binary = "*"
+python-dotenv = "*"
 
 [requires]
 python_version = "3.7"

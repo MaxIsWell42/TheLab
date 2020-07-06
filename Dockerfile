@@ -16,6 +16,9 @@ ENV LIBRARY_PATH=/lib:/usr/lib
 # Add requirements.txt before rest of repo for caching.
 COPY requirements.txt /requirements.txt
 
+FROM python:3.6-alpine
+RUN apk update && apk add postgresql-dev gcc python3-dev musl-dev
+
 # Install project dependencies before copying the rest of the codebase.
 RUN python -m pip install --install-option="--prefix=/install" -r /requirements.txt
 
