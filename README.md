@@ -1,5 +1,5 @@
 <p align="center">
-The Lab
+<h1>The Lab<h1>
 <br>
 <br>
 A personal testing site. As of right now, mainly a blog where I post some cool stuff I find, CS articles and opinion pieces.
